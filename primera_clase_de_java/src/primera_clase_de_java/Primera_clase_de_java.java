@@ -5,6 +5,8 @@
  */
 package primera_clase_de_java;
 
+import nuevoPaquete.Clase_2;
+
 /**
  *
  * @author laboratorio
@@ -24,6 +26,13 @@ public class Primera_clase_de_java {
            
         }
 
+      Clase_2 cd1 =new  Clase_2();
+        System.out.println("atributos " + cd1.otracosa);
+      
+        Clase_3 cd2 =new  Clase_3();
+        
+        System.out.println("atributos " + cd2.j);
+        
     }
 
 }
